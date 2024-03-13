@@ -32,4 +32,4 @@ The PuLP solution is implemented in `pulp_solution.py`. This script shows how to
 
 
 ### Measures
-- 
+- The CPA (cost per acquisition) value was found to be the lowest at 1.7 million yen. This indicates that distributing coupons with a budget of 1.7 million yen allows for the most cost-effective distribution strategy.
