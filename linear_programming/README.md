@@ -27,7 +27,8 @@ The PuLP solution is implemented in `pulp_solution.py`. This script shows how to
 - Ensure each direct mail pattern is sent to at least 10% of the members in each segment.
 
 ### Execution Results
-- ![Result](/coupon/figure1.png "Result")
+![Figure 1](https://github.com/shun00200/Mathematical-Optimization/blob/images/images/figure1.png)
+
 
 
 ### Measures
