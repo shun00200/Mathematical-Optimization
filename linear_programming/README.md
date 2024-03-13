@@ -12,4 +12,23 @@ The brute force algorithm is implemented in `brute_force_solution.py`. This scri
 
 The second approach utilizes PuLP, a popular linear programming library in Python, to solve the same problem more efficiently. PuLP provides a high-level interface for defining problems and calling underlying solvers, which makes it much easier and faster to find optimal solutions for linear programming problems.
 
-The PuLP solution is implemented in `pulp_solution.py`. This script shows how to define the problem constraints and objective function in PuLP, and how to solve the problem using one of the available solvers in the library.
+The PuLP solution is implemented in `pulp_solution.py`. This script shows how to define the problem constraints and objective function in PuLP, and how to solve the problem using one of the available solvers in the library
+
+## Example of Coupon Distribution
+
+### Objective
+- Distribute discount coupons to members to maximize their number of store visits while staying within a budget.
+
+### Details
+- Determine which direct mail pattern to send to each member.
+- Only one direct mail pattern can be sent to each member.
+- Maximize the increase in customer visits due to coupon distribution.
+- Total expected budget consumption by members should not exceed 1 million yen.
+- Ensure each direct mail pattern is sent to at least 10% of the members in each segment.
+
+### Execution Results
+- ![Result](/coupon/figure1.png "Result")
+
+
+### Measures
+- 
